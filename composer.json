@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "desolatormagno\\JsUtilities\\": "src"
+            "DesolatorMagno\\JsUtilities\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "desolatormagno\\JsUtilities\\Test\\": "tests"
+            "DesolatorMagno\\JsUtilities\\Test\\": "tests"
         }
     },
     "extra": {
