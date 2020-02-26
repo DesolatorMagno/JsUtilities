@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "desolatormagno\\js-utilities\\": "src"
+            "desolatormagno\\JsUtilities\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "desolatormagno\\js-utilities\\": "tests"
+            "desolatormagno\\JsUtilities\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -43,6 +43,11 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "DesolatorMagno\\JsUtilities\\JsUtilitiesServiceProvider"
+            ]
         }
     },
     "config": {
