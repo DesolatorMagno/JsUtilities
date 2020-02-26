@@ -1,14 +1,14 @@
 {
     "name": "desolatormagno/js-utilities",
-    "type": "library",
     "description": "Set of js utilities for tables and views in general.",
+    "type": "library",
     "keywords": [
         "desolatormagno",
         "js-utilities",
         "CRUD",
         "js"
     ],
-    "homepage": "https://github.com/desolatormagno/js-utilities",
+    "homepage": "https://github.com/DesolatorMagno/js-utilities",
     "license": "MIT",
     "authors": [
         {
@@ -21,6 +21,8 @@
     "require": {
         "php": ">=7.1.3"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "DesolatorMagno\\JsUtilities\\": "src"
