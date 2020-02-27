@@ -13,8 +13,7 @@ class JsUtilitiesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/resources/views');
-
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'js-utilities');
     }
 
     /**
